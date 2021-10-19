@@ -4,7 +4,9 @@
 
 + **What does this project do?**
 
-  This project connects an ESP32 board to Tencent cloud by MQTT protocol, and publishes a topic which shows the value of a on-board Touch Pad (Capacitive Touch module)
+  This project connects an ESP32 board to Tencent cloud by MQTT protocol, and publishes a topic which shows the value of a on-board Touch Pad (Capacitive Touch module).
+
+  Also, it receives from the cloud and set-high or set-low GPIO0 accordingly.
 
 + **What do I need to get this project running?**
 
